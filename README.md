@@ -23,6 +23,15 @@ Ce document répertorie les changements significatifs apportés à l'application
     * Le logo de téléversement devient un `+` .
     * Le texte du menu de téléversement devient `ajouter` au lieu de `téléverser` en français.
     * Aucun changement en anglais. 
+    
+* **Suppression des paramètres non utilisés**.
+    * Les paramètres n'étant pas utilisés ont été supprimés :
+      * Notifications depuis le navigateur
+      * Téléchargement de toutes les photos
+      * Partage de l'évènement
+      * Quitter l'évènement
+      * Eléments par page
+      * Mode d'affichage par défaut
 
 ### 🐛 **Corrections de bugs**
 * Sur les boîtes de visualisation des images : 
