@@ -1,1 +1,21 @@
-# shottt.it
+
+# Changelog Shottt.it
+
+Ce document répertorie les changements significatifs apportés à l'application. La numérotation des versions suivra le standard [Semantic Versioning](https://semver.org/lang/fr/) après la sortie de la dernière bêta.
+
+
+## v0.02 bêta - 30/08/2025
+
+
+
+### ♻️ **Modifications**
+* **[Migration Cloudinary+S3 → R2 Fullstack]** : Migration du service de stockage et de CDN pour les médias.
+    * `[Stockage]` : Migration vers Cloudflare R2
+       * Suspension des connexions avec AWS S3 Bucket pour l'archivage
+       * Suspension des connexions avec Cloudinary
+       * Mise en place de Cloudflare R2 pour stockage et transformations des images
+       * Mise en place du CDN sur img.shottt-media.com pour servir les images
+       * Gain en rapport quotas/coûts, gain en qualité de service et disponibilité  
+
+
+---
