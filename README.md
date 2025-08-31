@@ -33,6 +33,9 @@ Ce document répertorie les changements significatifs apportés à l'application
       * Eléments par page
       * Mode d'affichage par défaut
 
+* **Rebranding léger pour Shottt.it** : Bye-bye "PicManager", bonjour `Shottt.it` !
+    * Suppression de toutes les références à PicManager
+
 ### 🐛 **Corrections de bugs**
 * Sur les boîtes de visualisation des images : 
     * Champ "Date de téléversement"/"Upload date" (ENG) est renommé juste "Date".
