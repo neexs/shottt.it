@@ -3,6 +3,23 @@
 
 Ce document répertorie les changements significatifs apportés à l'application. La numérotation des versions suivra le standard [Semantic Versioning](https://semver.org/lang/fr/) après la sortie de la dernière bêta.
 
+## v0.2.1 bêta - 01/09/2025
+
+### 🐛 **Corrections de bugs**
+* `[Administrateur]` : Correction d'un bug critique où les évènements affichées étaient globales, sans disctinction de compte. Aujourd'hui, l'utilisateur connecté est pris en compte.
+
+---
+
+## v0.2 bêta - 01/09/2025
+
+### ✨ **Améliorations**
+* **Implémentation d'un système de monitoring** 
+    * Non visible pour l'utilisateur, un système permettant de surveiller :
+       * les performances, "métriques" (CPU, RAM) avec OpenObserver
+       * les logs au détail (couche applicative) avec Seq
+
+---
+
 ## v0.11 bêta - 31/08/2025
 
 ### ✨ **Améliorations**
