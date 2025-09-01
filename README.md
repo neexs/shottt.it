@@ -3,6 +3,13 @@
 
 Ce document répertorie les changements significatifs apportés à l'application. La numérotation des versions suivra le standard [Semantic Versioning](https://semver.org/lang/fr/) après la sortie de la dernière bêta.
 
+## v0.11 bêta - 31/08/2025
+
+### ✨ **Améliorations**
+* **Ajout de Matomo pour le tracking** 
+    * Permet de suivre l'activité des visiteurs sur l'application, dans le but d'améliorer l'outil.
+
+---
 
 ## v0.10 bêta - 30/08/2025
 
