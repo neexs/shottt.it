@@ -3,6 +3,15 @@
 
 Ce document répertorie les changements significatifs apportés à l'application. La numérotation des versions suivra le standard [Semantic Versioning](https://semver.org/lang/fr/) après la sortie de la dernière bêta.
 
+## v0.3.0 bêta - 02/09/2025
+
+### 🚀 **Nouvelles fonctionnalités**
+* **Upload de vidéos** : Upload de vidéo possible !
+    * `[Limite]` : 200MB par vidéo.
+    * `[Limite]` : Jusqu'à 30 médias (photos et-ou vidéos) par batch d'upload.
+    * `[Limite]` : Vidéos non téléchargeables à ce stade.
+---
+
 ## v0.2.1 bêta - 01/09/2025
 
 ### 🐛 **Corrections de bugs**
