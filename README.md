@@ -3,11 +3,6 @@
 
 Ce document répertorie les changements significatifs apportés à l'application. La numérotation des versions suivra le standard [Semantic Versioning](https://semver.org/lang/fr/) après la sortie de la dernière bêta.
 
-* added hangfire sync schedule 20 min
-* added video download
-* added safe delete videos
-
-
 ## v0.3.1 bêta - 02/09/2025
 
 ### 🚀 **Nouvelles fonctionnalités**
