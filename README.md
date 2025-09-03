@@ -3,6 +3,20 @@
 
 Ce document répertorie les changements significatifs apportés à l'application. La numérotation des versions suivra le standard [Semantic Versioning](https://semver.org/lang/fr/) après la sortie de la dernière bêta.
 
+* added hangfire sync schedule 20 min
+* added video download
+* added safe delete videos
+
+
+## v0.3.1 bêta - 02/09/2025
+
+### 🚀 **Nouvelles fonctionnalités**
+* **Upload de vidéos** : Comple !
+    * `[Synchronisation]` : Certaines informations des vidéos visibles sur la fiche sont visionnables après un temps de synchro définie côté serveur (ie: durée de la vidéo). 
+    * `[Téléchargement]` : Les vidéos sont téléchargeable, pour tout le monde.
+    * `[Suppression]` : Pour l'admin, la suppression est sécurisée.
+---
+
 ## v0.3.0 bêta - 02/09/2025
 
 ### 🚀 **Nouvelles fonctionnalités**
