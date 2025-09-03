@@ -3,13 +3,25 @@
 
 Ce document répertorie les changements significatifs apportés à l'application. La numérotation des versions suivra le standard [Semantic Versioning](https://semver.org/lang/fr/) après la sortie de la dernière bêta.
 
+## v0.3.2 bêta - 03/09/2025
+
+### ✨ **Améliorations**
+* **Inscription** 
+    * `[Politique de mot de passe]` : Retrait des contraintes REGEX obsolètes sur les caractères spéciaux limitant les possibilités de mot de passes robustes. 
+    * `[Session admin]` : Utilisation en _background_ du refresh token permettant au user de rester connecté malgré l'expiration du token d'accès initial.
+
+* **Étapes dans la galerie** 
+    * `[Événement en cours]` : Affichage par défaut de l'onglet avec l'événement en cours. Sinon, affichage de l'onglet "Tout".
+     
+---
+
 ## v0.3.1 bêta - 02/09/2025
 
-### 🚀 **Nouvelles fonctionnalités**
-* **Upload de vidéos** : Comple !
+### ✨ **Améliorations**
+* **Upload de vidéos** 
     * `[Synchronisation]` : Certaines informations des vidéos visibles sur la fiche sont visionnables après un temps de synchro définie côté serveur (ie: durée de la vidéo). 
     * `[Téléchargement]` : Les vidéos sont téléchargeable, pour tout le monde.
-    * `[Suppression]` : Pour l'admin, la suppression est sécurisée.
+    * `[Suppression]` : Pour l'admin, la suppression est fonctionnelle et sécurisée.
 ---
 
 ## v0.3.0 bêta - 02/09/2025
