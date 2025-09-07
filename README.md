@@ -3,6 +3,54 @@
 
 Ce document répertorie les changements significatifs apportés à l'application. La numérotation des versions suivra le standard [Semantic Versioning](https://semver.org/lang/fr/) après la sortie de la dernière bêta.
 
+## v0.5.0 bêta - 07/09/2025
+
+### 🚀 **Nouvelles fonctionnalités**
+* **Nouvelle interface d'administration** : fonctionnalités de gestion complète des médias. Pour y accéder, il faut aller dans la Galerie d'un évènement et cliquer sur "Gestion des médias", le bouton à droite en haut. 
+Celui du centre est déprécié et sera retiré dans une future version. 
+
+    * `[Tri]` : Options de tri sur tous les champs
+    * `[Filtres]` : Filtres avancés sur tous les champs
+    * `[Pagination]` : Optimisation du temps de chargement
+    * `[Mobile]` : Une version mobile adaptée
+    * **Champs disponibles** :
+       * Auteur (liste des auteurs affichés)
+       * Date d'upload
+       * Taille du fichier
+       * Largeur (photo uniquement)
+       * Hauteur (photo uniquement)
+       * Durée (vidéo uniquement)
+       * Statut [visibilité]
+       * Type (vidéo ou photo)
+       * Etape (liste les étapes de l'évènement)
+
+     ![alt text](image.png)
+
+     ![alt text](image-1.png)
+
+* **Téléchargement en masse** : On peut télécharger un, plusieurs médias. 
+    * `[<400Mb]` : Téléchargement via client, zippage local.
+    * `[>400Mb]` : Utilisation du backend pour génération d'un lien de téléchargement. Le lien est envoyé en asynchrone au client et par email.
+
+### ✨ **Améliorations**
+* **Inscription** 
+    * `[Actualisation de la galerie si media ajouté ou retiré]` : La galerie de l'invité est actualisé sans rechargement lorsqu'un média est supprimé, caché ou ajouté. 
+
+### 🐛 **Corrections de bugs**
+* Correction d'un bug où un même invité pouvait se connecter à un évènement différent, sans avoir explicitement rejoint l'évènement. Le même cookie était utilisé.
+
+
+
+## v0.4.0 bêta - 03/09/2025
+
+### ✨ **Améliorations**
+* **Inscription** 
+    * `[Politique de mot de passe]` : Retrait des contraintes REGEX obsolètes sur les caractères spéciaux limitant les possibilités de mot de passes robustes. 
+    * `[Session admin]` : Utilisation en _background_ du refresh token permettant au user de rester connecté malgré l'expiration du token d'accès initial.
+
+* **Étapes dans la galerie** 
+    * `[Événement en cours]` : Affichage par défaut de l'onglet avec l'événement en cours. Sinon, affichage de l'onglet "Tout".
+     
 ## v0.3.2 bêta - 03/09/2025
 
 ### ✨ **Améliorations**
